@@ -1,0 +1,31 @@
+.table{
+    border-collapse: collapse;
+    width: 900px;
+    background-color: #fff;
+}
+.thead{
+    text-transform: uppercase;
+    background-color: #4eacf3;
+    color: #fff;
+}
+.theadCol{
+    text-align: center;
+    padding: 10px 15px;
+}
+.row{
+    border-bottom: 1px solid #000;
+}
+.row:nth-child(even){
+    background-color: #dddddd9a;
+}
+.col{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    color: #000000a0;
+}
+
+.col:first-child{
+    text-align: left;
+    padding-left: 10%;
+}
