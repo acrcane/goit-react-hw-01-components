@@ -4,8 +4,10 @@ li{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 40px;
-    background-color: #ccc;
+    /* background-color: #ccc; */
+    min-height: 100vh;
+    height: max-content;
 }
